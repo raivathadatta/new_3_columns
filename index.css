@@ -9,10 +9,10 @@
         padding-bottom: 100px;
     }
 
-    p{
+    p {
         font-family: "Lexend Deca", sans-serif;
         font-weight: 400;
-        font-size: 13px;
+        font-size: 15px;
         color: hsla(0, 0%, 100%, 0.75);
     }
 
@@ -20,18 +20,24 @@
         color: hsl(0, 0%, 95%);
         font-family: "Big Shoulders Display", sans-serif;
         font-weight: 700;
-        font-size: 47px;
+        font-size: 30px;
     }
-    button{
+
+    button {
+        text-align: center;
+        font-family: "Lexend Deca", "sans-serif";
         background-color: hsl(0, 0%, 95%);
-        padding: 15px;
-        border-radius: 50px;
+        width: 110px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 40px;
+        margin-top: 15px;
         border: none;
     }
 
     .container {
         width: 340px;
-        width: 80% !important;
+        width: 90% !important;
         background-color: white;
         direction: flex;
         flex-direction: row;
@@ -42,7 +48,7 @@
         text-align: left;
         padding-top: 40px;
         padding-left: 30px;
-        padding-right: 20px;
+        padding-right: 40px;
         line-height: 1em;
         padding-bottom: 40px;
         color: hsla(0, 0%, 100%, 0.75);
@@ -55,25 +61,29 @@
         border-top-right-radius: 8px;
     }
 
-.seadan_button{
-    color:  hsl(31, 77%, 52%);
-    
-}
+    .seadan_button {
+        text-align: center;
+        margin-left: 4px;
+        color: hsl(31, 77%, 52%);
 
-#suv{
-    background-color: hsl(184, 100%, 22%);
-}
+    }
 
-.suv_button{
-    color:  hsl(184, 100%, 22%);
-}
-#luxury{
-    background-color: hsl(179, 100%, 13%);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-}
-.luxury_button{
-    color: hsl(179, 100%, 13%);
-}
+    #suv {
+        background-color: hsl(184, 100%, 22%);
+    }
+
+    .suv_button {
+        color: hsl(184, 100%, 22%);
+    }
+
+    #luxury {
+        background-color: hsl(179, 100%, 13%);
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .luxury_button {
+        color: hsl(179, 100%, 13%);
+    }
 
 }
