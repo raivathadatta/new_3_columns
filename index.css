@@ -1,91 +1,210 @@
-@media (max-width: 375px) {
-    body {
-        display: flex;
+body{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.container{
+    background-color:hsla(0, 0%, 100%, 0.75);
+    margin-top: 15px;
+    padding:25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sedanContainer{
+    background-color:hsl(31, 77%, 52%);
+    width:250px;
+    padding:50px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+
+
+}
+
+h2{
+    font-family:Big Shoulders Display ;
+    font-weight: 700;
+    color:hsl(0, 0%, 95%)
+}
+
+p{
+    font-family: Lexend Deca;
+    font-weight: 400;
+    color:hsla(0, 0%, 100%, 0.75);
+    line-height:1.2em;
+
+}
+
+.sedenButton{
+    color:hsl(31, 77%, 52%);
+    background-color:hsl(0, 0%, 95%) ;
+    font-weight: 400;
+    font-size:20px;
+    font-family:Lexend Deca ;
+    padding:10px;
+    width: 200px;
+    border-radius: 30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border:0px;
+    margin-top:10px;
+}
+
+.sedenButton:hover{
+    background-color:black;
+}
+
+.suvsContainer{
+    background-color:hsl(184, 100%, 22%);
+    width:250px;
+    padding:50px;
+
+}
+
+.suvButton{
+    color:hsl(184, 100%, 22%);
+    font-size:20px;
+    font-family:Lexend Deca ;
+    padding:10px;
+    width: 200px;
+    border-radius: 30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border:0px;
+    margin-top:10px;
+}
+
+.suvButton:hover{
+    background-color: black;
+}
+
+.luxuryContainer{
+    background-color:hsl(179, 100%, 13%);
+    width:250px;
+    padding:50px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.luxuryButton{
+    color:hsl(179, 100%, 13%);
+    font-size:20px;
+    font-family:Lexend Deca ;
+    padding:10px;
+    width: 200px;
+    border-radius: 30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border:0px;
+    margin-top:10px;
+
+}
+
+.luxuryButton:hover{
+    background-color: black;
+}
+
+@media  screen and (min-width:900px) {
+    .container{
+        height:100vh;
+        display:flex;
+        flex-direction:row;
         justify-content: center;
         align-items: center;
-        padding-top: 100px;
-
-
-        padding-bottom: 100px;
     }
 
-    p {
-        font-family: "Lexend Deca", sans-serif;
+    .para{
+        font-family: Lexend Deca;
         font-weight: 400;
-        font-size: 15px;
-        color: hsla(0, 0%, 100%, 0.75);
+        color:hsla(0, 0%, 100%, 0.75);
+        line-height: 1.2em;
+    
     }
 
-    h2 {
-        color: hsl(0, 0%, 95%);
-        font-family: "Big Shoulders Display", sans-serif;
-        font-weight: 700;
-        font-size: 30px;
+    .sedanContainer{
+        height:500px;
+        background-color:hsl(31, 77%, 52%);
+        padding:50px;
+        border-top-right-radius:10px;
+        border-bottom-left-radius:10px;
+        border-top-right-radius:0px;
+    
+    
     }
 
-    button {
-        text-align: center;
-        font-family: "Lexend Deca", "sans-serif";
-        background-color: hsl(0, 0%, 95%);
-        width: 110px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border-radius: 40px;
-        margin-top: 15px;
-        border: none;
+    .sedenButton{
+        color:hsl(31, 77%, 52%);
+        background-color:hsl(0, 0%, 95%) ;
+        font-weight: 400;
+        font-size:20px;
+        font-family:Lexend Deca ;
+        padding:10px;
+        width: 200px;
+        border-radius: 30px;
+        padding-top:20px;
+        padding-bottom:20px;
+        border:0px;
+        margin-top:200px;
+    
     }
 
-    .container {
-        width: 340px;
-        width: 90% !important;
-        background-color: white;
-        direction: flex;
-        flex-direction: row;
-   
-        /* padding-left:10px ; */
+    .sedenButton:hover{
+        background-color: black;
     }
 
-    .car_type {
-        /* max-width: 300px; */
-        text-align: left;
-        padding-top: 40px;
-        padding-left: 30px;
-        padding-right: 40px;
-        line-height: 1em;
-        padding-bottom: 40px;
-        color: hsla(0, 0%, 100%, 0.75);
-        font-size: 1.2em;
+    .luxuryContainer{
+        height:500px;
+        background-color:hsl(179, 100%, 13%);
+        width:250px;
+        padding:50px;
+        border-bottom-left-radius:0px;
+        border-bottom-right-radius:10px;
+        border-top-right-radius:10px;
     }
 
-    #sedans {
-        background-color: hsl(31, 77%, 52%);
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
+    .luxuryButton{
+        color:hsl(179, 100%, 13%);
+        font-size:20px;
+        font-family:Lexend Deca ;
+        padding:10px;
+        width: 200px;
+        border-radius: 30px;
+        padding-top:20px;
+        padding-bottom:20px;
+        border:0px;
+        margin-top:200px;
+    
     }
 
-    .seadan_button {
-        text-align: center;
-        margin-left: 4px;
-        color: hsl(31, 77%, 52%);
-
+    .luxuryButton:hover{
+        background-color: black;
     }
 
-    #suv {
-        background-color: hsl(184, 100%, 22%);
+    .suvsContainer{
+        height:500px;
+        background-color:hsl(184, 100%, 22%);
+        width:250px;
+        padding:50px;
+    
     }
 
-    .suv_button {
-        color: hsl(184, 100%, 22%);
+    .suvButton{
+        color:hsl(184, 100%, 22%);
+        font-size:20px;
+        font-family:Lexend Deca ;
+        padding:10px;
+        width: 200px;
+        border-radius: 30px;
+        padding-top:20px;
+        padding-bottom:20px;
+        border:0px;
+        margin-top:200px;
     }
 
-    #luxury {
-        background-color: hsl(179, 100%, 13%);
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 8px;
+    .suvButton:hover{
+        background-color: black;
     }
 
-    .luxury_button {
-        color: hsl(179, 100%, 13%);
-    }
 
+    
 }
